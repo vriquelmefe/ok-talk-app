@@ -1,0 +1,22 @@
+/*components:  button*/
+
+.button {
+  padding: 1rem 4rem;
+  cursor: pointer;
+  font-family: $roboto;
+  font-size: $medium;
+  font-weight: $bold;
+}
+
+//button scheme
+.button_primary {
+  border: none;
+  color: $white;
+  background-color: $blue-bell;
+  &:hover {
+    background-color: $pale-lavender;
+  }
+  &:focus {
+    background-color: $gray;
+  }
+}
